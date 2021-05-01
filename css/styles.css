@@ -54,13 +54,17 @@ em {
 
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 30%;
+
 }
 
 .title-image {
-  width: 60%;
+  width: 55%;
   transform: rotate(20deg);
   position: absolute;
+  right: 25%;
+  top: 5%;
+
 
 }
 
@@ -72,11 +76,11 @@ em {
 
 .navbar-brand {
   font-size: 1.5rem;
+  padding-left: 1.5%;
 }
 
 .nav-logo {
-  width: 6%;
-  padding: 0 18px;
+  width: 4%;
   animation: rotation 50s linear infinite;
 }
 .nav-item {
@@ -96,7 +100,6 @@ font-weight: lighter;
   text-align: center;
   background-color: #fff;
   position: relative;
-  z-index: 1;
 
 }
 
