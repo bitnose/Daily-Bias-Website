@@ -20,8 +20,15 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  line-height: 1;
+  line-height: 1.5;
 }
+
+h4{
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
 
 p {
   color: gray;
@@ -85,7 +92,6 @@ font-weight: lighter;
 #features {
   padding: 7% 15%;
   text-align: center;
-  background:
 }
 
 .feature-image {
@@ -100,7 +106,7 @@ font-weight: lighter;
   padding: 4.5%;
 }
 
-/* Testimonials section */
+/* Testimonials Section */
 
 #testimonials {
   text-align: center;
@@ -113,11 +119,30 @@ font-weight: lighter;
   padding: 7% 15%;
 }
 
+
+/* Plans Section */
+#plans {
+  padding: 100px;
+  text-align: center;
+
+}
+
+.plan-column {
+  padding: 3% 2%;
+  text-align: center;
+
+
+
+}
+
+
 /* Buttons */
 
 .download-button {
   margin: 5% 3% 5% 0;
 }
+
+
 
 
 /* Animations */
