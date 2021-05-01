@@ -3,7 +3,6 @@ body {
 }
 
 /* Fonts */
-
 h1 {
   font-size: 3.5rem;
   line-height: 1.5;
@@ -116,6 +115,18 @@ em {
   padding: 3% 2%;
   text-align: center;
 }
+
+/* Call To Action Section */
+
+#cta {
+  background-color: #212121;
+  text-align: center;
+  height: 500px;
+  padding: 10% 10%;
+}
+
+
+
 
 /* Buttons */
 .download-button {
