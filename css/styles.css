@@ -49,7 +49,7 @@ em {
 
 #title {
   background-color: #212121;
-  color: #fff;
+  color: #fff
 }
 
 
@@ -60,6 +60,8 @@ em {
 .title-image {
   width: 60%;
   transform: rotate(20deg);
+  position: absolute;
+
 }
 
 /* Navigation Bar */
@@ -92,6 +94,10 @@ font-weight: lighter;
 #features {
   padding: 7% 15%;
   text-align: center;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
 }
 
 .feature-image {
@@ -102,7 +108,6 @@ font-weight: lighter;
 
 .feature-box {
   margin-bottom: 0;
-  position: relative;
   padding: 4.5%;
 }
 
