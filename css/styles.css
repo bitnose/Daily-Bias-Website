@@ -24,16 +24,11 @@ p {
   color: gray;
 }
 
-em {
-  color: #fff;
-}
-
 /* Headings */
 
 .big-heading {
   font-size: 3.5rem;
   font-weight: bolder;
-  color: #fff;
 }
 
 /* Containers */
@@ -42,11 +37,20 @@ em {
   padding: 7% 15%;
 }
 
+/* Sections */
+.white-section {
+  background-color: #fff;
+}
+
+.dark-section {
+  background-color: #212121;
+  color: #fff;
+}
+
+
 /* Title Section */
 
 #title {
-  background-color: #212121;
-  color: #fff;
   text-align: left;
 }
 
@@ -90,7 +94,6 @@ em {
 /* Feature Section */
 
 #features {
-  background-color: #fff;
   position: relative;
 }
 
@@ -111,13 +114,11 @@ em {
 /* Testimonials Section */
 
 #testimonials {
-  background-color: #212121;
   height: 400px;
 }
 
 .testimonial-text {
   font-size: 2rem;
-  color: #fff;
 }
 
 /* Plans Section */
@@ -134,17 +135,7 @@ em {
   font-size: 1.5rem;
 }
 
-/* Call To Action Section */
-
-#cta {
-  background-color: #212121;
-}
-
 /* Footer Section */
-
-#footer {
-  background-color: #212121;
-}
 
 #footer .container-fluid {
   padding-bottom: 2%;
@@ -155,7 +146,6 @@ em {
 }
 
 .copyright-text {
-  color: #fff;
   font-size: 0.75rem;
   padding-top: 10px;
 }
