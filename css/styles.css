@@ -1,29 +1,23 @@
 body {
   font-family: 'Comfortaa', sans-serif;
+  text-align: center;
 }
 
 /* Fonts */
-h1 {
-  font-size: 3.5rem;
+
+h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
-  font-weight: bolder;
 }
 
-h2 {
-  font-size: 2rem;
-  line-height: 1.5;
+a {
+  padding: 20px;
   color: #fff;
+  font-size: 80%;
+  text-decoration: none;
 }
 
-h3 {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-h4 {
-  font-size: 2rem;
-  line-height: 1.5;
-  font-weight: bolder;
+a:hover {
+  color: #0E9FE4;
 }
 
 p {
@@ -34,13 +28,29 @@ em {
   color: #fff;
 }
 
-/* Title Section */
-#title {
-  background-color: #212121;
-  color: #fff
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #fff;
 }
 
+/* Containers */
+
 .container-fluid {
+  padding: 7% 15%;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #212121;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
   padding: 3% 15% 30%;
 }
 
@@ -53,6 +63,7 @@ em {
 }
 
 /* Navigation Bar */
+
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -77,9 +88,8 @@ em {
 }
 
 /* Feature Section */
+
 #features {
-  padding: 7% 15%;
-  text-align: center;
   background-color: #fff;
   position: relative;
 }
@@ -94,48 +104,75 @@ em {
   padding: 4.5%;
 }
 
+.feature-text {
+  font-size: 1.5rem;
+}
+
 /* Testimonials Section */
+
 #testimonials {
-  text-align: center;
   background-color: #212121;
   height: 400px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 2rem;
+  color: #fff;
 }
 
 /* Plans Section */
+
 #plans {
   padding: 100px;
-  text-align: center;
 }
 
 .plan-column {
   padding: 3% 2%;
-  text-align: center;
+}
+
+.pricing-text {
+  font-size: 1.5rem;
 }
 
 /* Call To Action Section */
 
 #cta {
   background-color: #212121;
-  text-align: center;
-  height: 500px;
 }
 
-.cta-header {
-  padding: 7% 15%;
+/* Footer Section */
+
+#footer {
+  background-color: #212121;
 }
 
+#footer .container-fluid {
+  padding-bottom: 2%;
+}
+
+.footer-icon {
+  margin: 10px 20px:
+}
+
+.copyright-text {
+  color: #fff;
+  font-size: 0.75rem;
+  padding-top: 10px;
+}
 
 /* Buttons */
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
+.cta-button {
+  margin: 40px 20px 0;
+}
+
 /* Mobile Friendliness */
+
 @media (max-width: 1041px) {
+
   h1 {
     font-size: 2.5rem;
   }
@@ -164,11 +201,11 @@ em {
 }
 
 /* Animations */
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
   }
-
   to {
     transform: rotate(359deg);
   }
